@@ -26,7 +26,7 @@ To overcome the issue of class imbalance, used a python package  Augmentor (http
 
 
 ## CNN Architecture Design
-![modelEvaluation](https://github.com/ankita1408/Melanonma-Skin-Cancer-Detection/blob/main/New%20folder/download.png)
+
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
 
 - Rescalling Layer - To rescale an input in the [0, 255] range to be in the [0, 1] range.
