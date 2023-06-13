@@ -16,15 +16,17 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-![datasetdf]
+![datasetdf](https://github.com/ankita1408/Melanonma-Skin-Cancer-Detection/blob/main/New%20folder/Datasetdf.png)
 
-![datasetplot]
+
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
 ### Sample image from Dataset
+![sample image](https://github.com/ankita1408/Melanonma-Skin-Cancer-Detection/blob/main/New%20folder/download%20(2).png)
 
-![sample image]
+
 ## CNN Architecture Design
+![modelEvaluation](https://github.com/ankita1408/Melanonma-Skin-Cancer-Detection/blob/main/New%20folder/download.png)
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
 
 - Rescalling Layer - To rescale an input in the [0, 255] range to be in the [0, 1] range.
@@ -37,11 +39,12 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
 ### Model Architecture
-![Model Arch]
+![Model Arch](https://github.com/ankita1408/Melanonma-Skin-Cancer-Detection/blob/main/New%20folder/ModelLayer.png)
+## References
 
 ### Model Evaluation
-![ModelEvaluation]
-## References
+![ModelEvaluation](https://github.com/ankita1408/Melanonma-Skin-Cancer-Detection/blob/main/New%20folder/download%20(1).png)
+
 Melanoma Skin Cancer from https://www.cancer.org/cancer/melanoma-skin-cancer/about/what-is-melanoma.html
 
 Introduction to CNN from https://www.analyticsvidhya.com/blog/2021/05/convolutional-neural-networks-cnn/
